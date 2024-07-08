@@ -12,13 +12,11 @@ The system consists of the following microservices:
 - **Reminder Service**: Sends reminders and notifications.
 - **API Gateway**: Acts as a single entry point.
 
-
 - [Auth Service](https://github.com/AmDevDeepak/AuthServices): Handles user authentication and authorization.
 - [Booking Service](https://github.com/AmDevDeepak/BookingService): Manages flight bookings.
 - [Flights and Search Service](https://github.com/AmDevDeepak/FlightsAndSearchService): Provides flight search functionality.
 - [Reminder Service](https://github.com/AmDevDeepak/ReminderService): Sends reminders and notifications.
 - [API Gateway](https://github.com/AmDevDeepak/API_Gateway): Acts as a single entry point.
-
 
 ## Architecture
 
@@ -59,7 +57,7 @@ The architecture of the Airline Booking System is based on microservices, where 
 
 ### Features
 
-- **Search Flights**: Users can search for flights based on diffrent filters.
+- **Search Flights**: Users can search for flights based on different filters.
 - **Book Flights**: Registered users can book flights.
 - **Classify Flights**: Users can classify and filter flights based on price, departure time, and duration.
 - **Flight Notifications**: Users receive email notifications about flights.
@@ -67,4 +65,3 @@ The architecture of the Airline Booking System is based on microservices, where 
 ## Running the Services
 
 To run the services locally, follow the setup instructions in each repository. Ensure all services are running simultaneously to allow for proper inter-service communication.
-
